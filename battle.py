@@ -1,7 +1,7 @@
 """
 Battle Script
 Usage:
- "python battle.py [AccessToken] [Sleeptime]"
+ "python battle.py [AccessToken]"
 
 Author : Cristobal Sepulveda
 2021
@@ -22,7 +22,7 @@ def choose_winner(team_a, team_b):
         team_b (team): Batteling Team
     """
     if len(team_a.character_list)>len(team_b.character_list):
-        print(Fore.GREEN+Style.BRIGHT+"Team A Wins.",file = F)
+        print(Fore.GREEN+Style.BRIGHT+"Team A Wins.")
     else:
         print(Fore.GREEN+Style.BRIGHT+"Team B Wins.")
 
