@@ -70,7 +70,7 @@ def battle(team_a,team_b):
 
     choose_winner(team_a, team_b)
 
-def buildTeams(access):
+def build_teams(access):
     """
     Generate Random unique SuperHeroes and Villians for the battle
 
@@ -95,5 +95,5 @@ if len(sys.argv) < 2:
 init(autoreset=True)
 
 access_token = sys.argv[1]
-a,b = buildTeams(access_token)
+a,b = build_teams(access_token)
 battle(a,b)

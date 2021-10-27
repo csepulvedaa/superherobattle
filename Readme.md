@@ -6,8 +6,8 @@
 
 Para ejecutar esta simulación son necesarias las siguientes librerías.
 
-* Numpy
-* Colorama
+* numpy
+* colorama
 * time
 * sys
 
