@@ -10,6 +10,7 @@ Para ejecutar esta simulación son necesarias las siguientes librerías.
 * colorama
 * time
 * sys
+* requests
 
 Para ejecutar los tests:
 
